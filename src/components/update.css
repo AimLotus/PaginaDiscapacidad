@@ -1,0 +1,62 @@
+.contenedor {
+    background-color: rgba(255, 255, 255, 0.607);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    width: 500px;
+    margin: 20px auto;
+}
+
+h1 {
+    text-align: center;
+    color: #ff0000;
+}
+
+label, input {
+    display: block;
+    margin: 10px 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="telefono"],
+input[type="discapacidad"] {
+    width: 96%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:focus {
+    outline: none;
+}
+
+#mensaje {
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.mensaje-exito {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.mensaje-error {
+    background-color: #f44336;
+    color: white;
+}

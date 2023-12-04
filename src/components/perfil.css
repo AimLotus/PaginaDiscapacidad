@@ -1,0 +1,34 @@
+.perfil {
+    max-width: 500px;
+    margin: 100px auto 1rem;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#datos-usuario {
+    text-align: left;
+    margin-top: 20px;
+}
+
+#datos-usuario h2 {
+    color: #ff0000;
+}
+
+#datos-usuario p {
+    margin: 10px 0;
+}
+
+#datos-usuario strong {
+    font-weight: bold;
+}
+ul{
+    display: block;
+}
